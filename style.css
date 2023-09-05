@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.main{
+    position: relative;
+    background: linear-gradient(to top,rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(img.jpg);
+    width:100vw;
+    height:120vh;
+    background-position: center;
+    background-size: cover;
+}
+.icon{
+    position: absolute; 
+    top: 10px;
+    left:30px;
+    margin-left: 320px;
+}
+.logo{
+    text-align: center;
+    color:rgb(29, 96, 151);
+    font-family: Arial;
+    font-size: 50px;
+}
+
+.login-form {
+    color:aliceblue;
+    background: linear-gradient(to top,rgb(0,0,0,0.7),rgb(0,0,0,0.7));
+    width: 360px;
+    height: 500px;
+    float: right;
+    margin-top: 150px;
+    margin-right:500px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(131, 129, 129, 0.7);
+}
+
+
+.login-form h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.login-form h3{
+    font-size: 30px;
+}
+
+.login-form input {
+    width:290px;
+    height:40px;
+    color: #f5f5f5;
+    margin-top: 14px;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(10, 62, 105);
+    font-size: 16px;
+}
+.btn {
+    width: 180px;
+    height: 36px;
+    font-size: 16px;
+    background-color: rgb(10, 62, 105);
+    border: none;
+    border-radius: 8px;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+}
+.link{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    font-family: sans-serif;
+}
+.liw{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+.icons ion-icon{
+    font-size: 30px;
+    margin-left: 34px;
+    cursor: pointer;
+    transform: 0.5s ease-in-out;
+    color: #f5f5f5;
+    
+}
+.icons ion-icon:first-child{
+    margin-left: 0;
+}
+.icons ion-icon:hover{
+    color:rgb(10, 62, 105);
+}
+
